@@ -1,0 +1,70 @@
+name: precious_weight
+description: >-
+  The app that make possible to monitor in real-time the data of baby scales
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.0
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  google_fonts: ^6.2.1
+  provider: ^6.1.5
+  path_provider: ^2.1.5
+  intl: ^0.20.2
+  http: ^1.5.0
+  http_parser: ^4.1.2
+  fl_chart: ^1.0.0
+  image_picker: ^1.2.0
+
+  pretty_qr_code: ^3.3.0
+  mobile_scanner: ^7.0.1
+  flutter_esp_ble_prov: ^0.1.7
+
+  flutter_native_splash: ^2.4.6
+  flutter_launcher_icons: ^0.14.4
+  permission_handler: ^12.0.1
+  device_info_plus: ^11.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/imgs/
+
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/imgs/my_splash.png
+  branding: assets/imgs/my_splash_brand.png
+
+  color_dark: "#121212"
+  image_dark: assets/imgs/my_splash.png
+  branding_dark: assets/imgs/my_splash_brand.png
+
+  android_12:
+    icon_background_color: "#ffffff"
+    image: assets/imgs/my_splash.png
+    branding: assets/imgs/my_splash_brand.png
+
+    icon_background_color_dark: "#121212"
+    image_dark: assets/imgs/my_splash.png
+    branding_dark: assets/imgs/my_splash_brand.png
+  android: true
+  ios: true
+  web: false
+
+flutter_launcher_icons:
+  image_path: "assets/imgs/my_icon.png"
+  ios: true
+  remove_alpha_ios: true
+  android: "launcher_icon"
+  adaptative_icon_background: "#FFFFFF"
+  adaptative_icon_foreground: "assets/imgs/my_icon_android.png"

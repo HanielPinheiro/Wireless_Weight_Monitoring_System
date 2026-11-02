@@ -1,0 +1,4 @@
+desktop.ini
+CodigoPrincipal/comm/mqtt_config/certs/client.key
+CodigoPrincipal/comm/mqtt_config/certs/client.crt
+CodigoPrincipal/comm/mqtt_config/certs/ca.crt

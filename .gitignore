@@ -1,0 +1,86 @@
+# =================================================================
+# PreciousWeight - repository-wide ignore rules
+# The golden rule: no credential, key, certificate or runtime dump
+# is ever committed. Everything below is generated locally.
+# =================================================================
+
+# --- Secrets and credentials -------------------------------------
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.csr
+*.srl
+secrets/
+**/certs/*.crt
+**/certs/*.key
+!**/certs/README.md
+application-local.properties
+application-local.yml
+*.secrets
+
+# --- Java / Maven -------------------------------------------------
+target/
+*.class
+*.jar
+*.war
+!**/maven-wrapper.jar
+!**/gradle-wrapper.jar
+.mvn/wrapper/maven-wrapper.jar
+
+# --- ESP-IDF ------------------------------------------------------
+build/
+sdkconfig
+sdkconfig.old
+managed_components/
+dependencies.lock.bak
+
+# --- Flutter / Dart ----------------------------------------------
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/doc/api/
+**/android/.gradle/
+**/android/.kotlin/
+**/android/**/.cxx/
+**/android/app/debug/
+**/android/app/release/
+**/android/local.properties
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_assets/
+
+# --- Message broker runtime state ---------------------------------
+**/mosquitto/passwd
+**/mosquitto/data/
+**/mosquitto/log/
+*.db
+
+# --- Logs ---------------------------------------------------------
+*.log
+logs/
+
+# --- IDE / editor -------------------------------------------------
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.settings/
+.classpath
+.project
+.apt_generated
+
+# --- Operating system --------------------------------------------
+desktop.ini
+Thumbs.db
+.DS_Store

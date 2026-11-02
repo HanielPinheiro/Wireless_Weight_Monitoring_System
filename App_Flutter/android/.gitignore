@@ -1,0 +1,110 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code related
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# iOS/XCode related
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Exceptions to above rules.
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# Windows/Linux related
+.windows/
+.linux/
+
+# CXX build files (Flutter/Android)
+**/app/.cxx/
+
+# Prevents ignoring all .cxx files while allowing specific exceptions
+!**/app/.cxx/Debug/**/additional_project_files.txt
+!**/app/.cxx/Debug/**/android_gradle_build.json
+!**/app/.cxx/Debug/**/android_gradle_build_mini.json
+!**/app/.cxx/Debug/**/build.ninja
+!**/app/.cxx/Debug/**/build_file_index.txt
+!**/app/.cxx/Debug/**/.cmake/api/v1/query/client-agp/cache-v2
+!**/app/.cxx/Debug/**/.cmake/api/v1/reply/cache-v2-*.json
+!**/app/.cxx/Debug/**/CMakeFiles/cmake.check_cache
+!**/app/.cxx/Debug/**/cmake_install.cmake
+!**/app/.cxx/Debug/**/CMakeCache.txt
+!**/app/.cxx/Debug/**/CMakeFiles/3.*.*/CMakeCCompiler.cmake
+!**/app/.cxx/Debug/**/CMakeFiles/3.*.*/CompilerIdC/CMakeCCompilerId.*
+!**/app/.cxx/Debug/**/CMakeFiles/3.*.*/CMakeCXXCompiler.cmake
+!**/app/.cxx/Debug/**/CMakeFiles/3.*.*/CompilerIdCXX/CMakeCXXCompilerId.*
+!**/app/.cxx/Debug/**/CMakeFiles/3.*.*/CMakeDetermineCompilerABI_C.bin
+!**/app/.cxx/Debug/**/CMakeFiles/3.*.*/CMakeDetermineCompilerABI_CXX.bin
+!**/app/.cxx/Debug/**/.cmake/api/v1/query/client-agp/cmakeFiles-v1
+!**/app/.cxx/Debug/**/.cmake/api/v1/reply/cmakeFiles-v1-*.json
+!**/app/.cxx/Debug/**/CMakeFiles/3.*.*/CMakeSystem.cmake
+!**/app/.cxx/Debug/**/.cmake/api/v1/query/client-agp/codemodel-v2
+!**/app/.cxx/Debug/**/.cmake/api/v1/reply/codemodel-v2-*.json
+!**/app/.cxx/Debug/**/configure_fingerprint.bin
+!**/app/.cxx/Debug/**/.cmake/api/v1/reply/directory-.-Debug-*.json
+!**/app/.cxx/Debug/**/hash_key.txt
+!**/app/.cxx/Debug/**/.cmake/api/v1/reply/index-*.json
+!**/app/.cxx/Debug/**/metadata_generation_command.txt
+!**/app/.cxx/Debug/**/prefab_config.json
+!**/app/.cxx/Debug/**/CMakeFiles/rules.ninja
+!**/app/.cxx/Debug/**/symbol_folder_index.txt
+!**/app/.cxx/Debug/**/CMakeFiles/TargetDirectories.txt
